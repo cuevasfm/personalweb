@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  background-color: #FFF;
+  color: #4d375d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.main__left{
+  padding: 10px;
+  border-right: 2px solid #4d375d;
+}
+
+.main__left--logo {
+  font-size: 200px;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+}
+
+.main__left--title {
+  font-size: 35px;
+  text-align: right;
+  color: #eb596e;
+}
+
+.main__left--subtitle {
+  text-align: right;
+}
+
+.right {
+  padding: 10px;
+}
+
+.main__right--p{
+  font-size: 20px;
+}
+
+.main__right--t{
+  margin: -15px 0px;
+  font-size: 35px;
+}
