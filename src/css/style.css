@@ -11,18 +11,18 @@ body {
 }
 
 .main {
-  width: 1000px;
+  width: 900px;
   display: flex;
   align-items: center;
 }
 
-.main__left{
+.main__left {
   padding: 10px;
   border-right: 2px solid #4d375d;
 }
 
 .main__left--logo {
-  font-size: 200px;
+  font-size: 13vw;
   text-align: right;
   font-family: 'Raleway', sans-serif;
 }
@@ -41,11 +41,26 @@ body {
   padding: 10px;
 }
 
-.main__right--p{
+.main__right--p {
   font-size: 20px;
 }
 
-.main__right--t{
+.main__right--t {
   margin: -15px 0px;
   font-size: 35px;
+}
+
+@media (max-width: 600px) {
+  .main {
+    display: inline-block;
+  }
+  .main__left--logo {
+    font-size: 40vw;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+  }
+  .main__left {
+    padding: 10px;
+    border-right: 0px solid #4d375d;
+  }
 }
