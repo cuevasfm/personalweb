@@ -50,6 +50,7 @@ body {
 .main__right--t {
   margin: -15px 0px;
   font-size: 35px;
+  font-weight: bold;
 }
 
 .icons {
@@ -87,8 +88,14 @@ body {
 
 @media (min-width: 1600px) {
   .main__left--logo {
-    font-size: 8vmin;
-    text-align: right;
-    font-family: 'Raleway', sans-serif;
+    font-size: 25vmin;
+  }
+  .main__right--t {
+    margin: -15px 0px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .main__right--p {
+    font-size: 25px;
   }
 }
